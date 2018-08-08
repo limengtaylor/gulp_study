@@ -1,0 +1,15 @@
+@import './reset.scss';
+@import './icons.scss';
+
+$base :pink;
+#study{
+    width:100vw;
+    height:50vh;
+    background-color: $base;
+}
+.img{
+    background: url('../images/ty4.jpg') no-repeat;
+    background-size: contain;
+    width: 100vw;
+    height: 45vh;
+}

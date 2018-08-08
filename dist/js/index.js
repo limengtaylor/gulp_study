@@ -1,0 +1,1 @@
+!function(n){var o=document.getElementById("study");o.onclick=function(){console.log(o.ondblclick),o.style.background="red"}}(window);
