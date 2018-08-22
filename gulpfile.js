@@ -82,25 +82,16 @@ gulp.task('sprite',function(){
       } */
       cssTemplate: function(data){  //data为对象，保存合成前小图和大图的信息，包括小图在大图之中的信息
         let arr = []
-        let width = data.spritesheet.px.width
-        let height = data.spritesheet.px.height
-        let url = data.spritesheet.image
-
-        arr.push(`
-        .icon{
-          display: inline-block;
-          vertical-align: middle;
-          background: url("${url}") no-repeat;
-        }
-        `)
-
+        let width = data.spritesheet.width
         data.sprites.forEach(function(sprite){
+          const {name,escaped_image,px} = sprite
           arr.push(`
-          .icon-${sprite.name}{
-            width:${sprite.px.width};
-            height:${sprite.px.height};
-            background-position:${sprite.px.offset_x} ${sprite.px.offset_y};
-            background-size:${sprite.px.width} ${sprite.px.height};
+          .icon-${name}{
+            background: url("${escaped_image}") no-repeat;
+            background-size:${parseFloat(width)/2}px auto;
+            background-position:${parseFloat(px.offset_x)/2}px ${parseFloat(px.offset_y)/2}px;
+            width:${parseFloat(px.width)/2}px;
+            height:${parseFloat(px.height)/2}px;                        
           }
           `)
         })

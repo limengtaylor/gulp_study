@@ -1,70 +1,41 @@
 
-        .icon{
-          display: inline-block;
-          vertical-align: middle;
-          background: url("../images/sprite.png") no-repeat;
-        }
-        
-          .icon-arrow_rt{
-            width:24px;
-            height:24px;
-            background-position:-355px -142px;
-            background-size:24px 24px;
+          .icon-group{
+            background: url("../images/sprite.png") no-repeat;
+            background-size:86px auto;
+            background-position:-30.5px -30.5px;
+            width:25px;
+            height:16px;                        
           }
           
-          .icon-enum{
-            width:40px;
-            height:32px;
-            background-position:-355px -105px;
-            background-size:40px 32px;
-          }
-          
-          .icon-f1{
-            width:130px;
-            height:100px;
+          .icon-group_2{
+            background: url("../images/sprite.png") no-repeat;
+            background-size:86px auto;
             background-position:0px 0px;
-            background-size:130px 100px;
+            width:28px;
+            height:28px;                        
           }
           
-          .icon-f2{
-            width:130px;
-            height:100px;
-            background-position:-135px 0px;
-            background-size:130px 100px;
+          .icon-group_4{
+            background: url("../images/sprite.png") no-repeat;
+            background-size:86px auto;
+            background-position:-30.5px 0px;
+            width:28px;
+            height:28px;                        
           }
           
-          .icon-f3{
-            width:130px;
-            height:100px;
-            background-position:0px -105px;
-            background-size:130px 100px;
+          .icon-group_5{
+            background: url("../images/sprite.png") no-repeat;
+            background-size:86px auto;
+            background-position:0px -30.5px;
+            width:28px;
+            height:28px;                        
           }
           
-          .icon-f4{
-            width:130px;
-            height:100px;
-            background-position:-135px -105px;
-            background-size:130px 100px;
-          }
-          
-          .icon-f5{
-            width:130px;
-            height:100px;
-            background-position:-270px 0px;
-            background-size:130px 100px;
-          }
-          
-          .icon-jd{
-            width:80px;
-            height:80px;
-            background-position:-270px -105px;
-            background-size:80px 80px;
-          }
-          
-          .icon-search{
-            width:60px;
-            height:60px;
-            background-position:0px -210px;
-            background-size:60px 60px;
+          .icon-group_copy{
+            background: url("../images/sprite.png") no-repeat;
+            background-size:86px auto;
+            background-position:-61px 0px;
+            width:25px;
+            height:16px;                        
           }
           
